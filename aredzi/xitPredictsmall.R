@@ -1,0 +1,8 @@
+library(ngram)
+library(dplyr)
+library(sbo)
+library(ggplot2)
+xitsongaText11 <- readLines("2222.txt")
+xitsongaText12 <- readLines("2222train.txt")
+xitsongaText13 <- readLines("2222test.txt")
+xitsongaText14 <- readLines("2222trainme.txt")
